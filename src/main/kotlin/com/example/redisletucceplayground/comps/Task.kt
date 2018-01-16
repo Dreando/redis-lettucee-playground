@@ -1,3 +1,4 @@
 package com.example.redisletucceplayground.comps
 
-data class Task(val user: String)
+data class Location(val lat: Int, val lon: Int)
+data class Task(val taskId: String)
